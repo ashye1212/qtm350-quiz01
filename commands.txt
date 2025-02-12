@@ -85,4 +85,49 @@ Fast-forward
  create mode 100644 scripts/backup/01-setup.py
  create mode 100644 scripts/backup/02-data-cleaning.py
  create mode 100644 scripts/backup/03-data-modelling.py
+(base) sibilz@V_LYLNZHANG-MB0 qtm350-quiz01 % echo "List of all commands used in this project" > commands.txt
+history | grep 'git' >> commands.txt
+git add commands.txt
+git commit -m "Add command history"
+git push origin main
+[main 078082d] Add command history
+ 1 file changed, 10 insertions(+)
+Username for 'https://github.com': ashye1212
+Password for 'https://ashye1212@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ashye1212/qtm350-quiz01/'
+(base) sibilz@V_LYLNZHANG-MB0 qtm350-quiz01 % echo "List of all commands used in this project" > commands.txt
+history | grep 'git' >> commands.txt
+git add commands.txt
+git commit -m "Add command history"
+git push origin main
+[main e1e111e] Add command history
+ 1 file changed, 1 insertion(+)
+Username for 'https://github.com': ashye1212
+Password for 'https://ashye1212@github.com': 
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (18/18), 1.97 KiB | 1.97 MiB/s, done.
+Total 18 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 1 local object.
+To https://github.com/ashye1212/qtm350-quiz01
+   4258465..e1e111e  main -> main
+(base) sibilz@V_LYLNZHANG-MB0 qtm350-quiz01 % nano commands.txt
+(base) sibilz@V_LYLNZHANG-MB0 qtm350-quiz01 % git add commands.txt
+git commit -m "Update command history"
+git push origin main
+[main b9b89e2] Update command history
+ 1 file changed, 88 insertions(+), 11 deletions(-)
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.27 KiB | 1.27 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ashye1212/qtm350-quiz01
+   e1e111e..b9b89e2  main -> main
 
