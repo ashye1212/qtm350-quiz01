@@ -8,3 +8,4 @@ List of all commands used in this project
   686  cat .gitignore
   687  git add .gitignore && git commit -m "Add .gitignore file"
   688  git checkout main\ngit merge feature-update
+  689  echo "List of all commands used in this project" > commands.txt\nhistory | grep 'git' >> commands.txt\ngit add commands.txt\ngit commit -m "Add command history"\ngit push origin main
